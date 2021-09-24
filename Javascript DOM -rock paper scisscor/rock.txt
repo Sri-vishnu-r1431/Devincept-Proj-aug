@@ -1,0 +1,20 @@
+  const d = Math.floor(Math.random() * 3) + 1;
+
+    if (d === 3 && user === 1) {
+        player.innerText = 2
+    }
+    if (d === 3 && user === 2) {
+        computer.innerText = 3;
+    }
+    if (d === 2 && user === 3) {
+        player.innerText = 4;
+    }
+    if (d === 2 && user === 1) {
+        computer.innerText = 1;
+    }
+    if (d === 1 && user === 2) {
+        player.innerText = 7;
+    }
+    if (d === 1 && user === 3) {
+        computer.innerText = 9;
+    }

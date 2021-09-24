@@ -1,0 +1,13 @@
+/mnt/c/Users/User/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/local/lib/node_modules
+
+
+location for file:C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\usr\local\lib\node_modules
+
+global installation commands:
+sudo chown -R $USER /usr/local/lib/node_modules
+
+sudo npm install -g --unsafe-perm=true --allow-root
+
+linking global package commands
+
+sudo npm link package_name
